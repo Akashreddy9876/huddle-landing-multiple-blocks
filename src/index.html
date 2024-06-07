@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+  <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+  <main class="text-VeryDarkCyan">
+    <section class="wrapper bg-hero-mobile bg-no-repeat bg-cover bg-top md:bg-hero-desktop">
+    <!--header-->
+    <header class="container mx-auto">
+      <nav class="flex justify-between items-center p-5 md:p-8">
+        <img src="../images/logo.svg" class="h-5 md:h-6">
+        <a href="#" class="bg-white rounded-full py-2 px-7 md:px-9 shadow-lg font-bold">
+          <h4>Try it Free</h4>
+        </a>
+      </nav>
+      <!--community section-->
+      <section class="community">
+        <!--community content-->
+        <div class="flex flex-col text-center md:text-left md:mx-2 md:flex-row md:justify-center md:items-center md:content-center">
+          <div class="flex flex-col items-center md:items-start space-y-6 mx-2 md:w-1/2">
+            <h1 class="font-bold text-xl w-52 md:text-3xl md:w-7/12">Build The Community Your Fans Will Love</h1>
+            <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+              Create connections with your users as you engage in genuine discussion.</p>
+            <a href="#" class="font-medium bg-Pink text-white rounded-full px-5 py-3 w-auto">Get Started For Free</a>
+          </div>
+          <!--fcommunity image-->
+          <div class="md:w-1/2 mt-6 py-2 px-6">
+            <img src="../images/illustration-mockups.svg" alt="">
+          </div>
+        </div>
+      </section>
+    </header>
+    </section>
+    <!--cards-->
+    <section class="cards flex flex-col mt-4 text-center space-y-5 md:text-left container mx-auto">
+      <!--card1-->
+      <div class="card flex flex-col space-y-3 m-4 p-6 rounded-3xl drop-shadow-[0_0px_10px_rgba(0,0,0,0.205)] bg-white md:flex-row-reverse md:space-x-16 md:justify-between">
+        <img src="../images/illustration-grow-together.svg" alt="" class="md:w-1/3 md:p-3">
+        <div class="flex flex-col md:pl-20 md:w-2/3 md:justify-center md:pr-3">
+            <h3 class="font-bold text-xl md:mb-3">Grow Together</h3>
+            <p class="text-gray-500">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful
+              conversations you miss out on with a feedback form.</p>
+        </div>
+      </div>
+      <!--card2-->
+      <div
+        class="card flex flex-col space-y-3 m-4 p-6 rounded-3xl drop-shadow-[0_0px_10px_rgba(0,0,0,0.205)] bg-white md:flex-row md:space-x-16 md:justify-between">
+        <img src="../images/illustration-flowing-conversation.svg" alt="" class="md:w-1/3 md:p-3">
+        <div class="flex flex-col md:pl-20 md:w-2/3 md:justify-center md:pr-3">
+          <h3 class="font-bold text-xl md:mb-3">Flowing Conversations</h3>
+          <p class="text-gray-500">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+        </div>
+      </div>
+      <!--card3-->
+      <div
+        class="card flex flex-col space-y-3 m-4 p-6 rounded-3xl drop-shadow-[0_0px_10px_rgba(0,0,0,0.205)] bg-white md:flex-row-reverse md:space-x-16 md:justify-between">
+        <img src="../images/illustration-your-users.svg" alt="" class="md:w-1/3 md:p-3">
+        <div class="flex flex-col md:pl-20 md:w-2/3 md:justify-center md:pr-3">
+          <h3 class="font-bold text-xl md:mb-3">Your Users</h3>
+          <p class="text-gray-500">It takes no time at all to integrate Huddle with your app's authentication solution.
+          This means, once signed in to your app, your users can start chatting immediately.</p>
+        </div>
+      </div>
+    </section>
+    <!--cta-->
+    <section class="cta relative bg-VeryDarkCyan text-white mt-40 p-5 mx-auto">
+      <!--community card-->
+      <div class="flex flex-col text-center justify-center items-center bg-white rounded-xl drop-shadow-[0_0px_10px_rgba(0,0,0,0.205)] shadow-2xl - text-VeryDarkCyan font-bold md:w-1/2 p-8 space-y-4 md:mx-auto -mt-24">
+        <h1>Ready to build your community?</h1>
+        <a href="#" class="font-medium bg-Pink text-white rounded-full px-5 py-3 w-auto">Get Started For Free</a>
+      </div>
+      <div class="flex flex-col md:flex-row p-2 space-y-4 md:space-x-4">
+      <!--contact and logo-->
+        <div class="flex flex-col mx-auto space-y-7 md:w-1/3 mt-6">
+          <div class="image">
+            <img src="../images/logowhite.svg" alt="">
+          </div>
+            <div class="address flex items-start space-x-2">
+              <img src="../images/icon-location.svg" alt="" class="mt-1">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor
+                incididunt ut labore et dolore magna aliqua</p>
+            </div>
+            <div class="phone flex items-center space-x-2">
+              <img src="../images/icon-phone.svg" alt="">
+              <p>+1-543-123-4567</p>
+            </div>
+            <div class="email flex items-center space-x-2">
+              <img src="../images/icon-email.svg" alt="">
+              <p>example@huddle.com</p>
+        </div>
+        </div>
+          <!--links-->
+          <div class="flex flex-col mt-6 text-left space-y-2 items-start my-0 md:flex-row md:w-1/3 md:space-x-4 md:justify-around md:items-center">
+            <div class="links1">
+              <ul class="list-none flex flex-col justify-between space-y-4">
+                <li>About Us</li> 
+                <li>What We Do</li>
+                <li>FAQ</li>
+              </ul>
+            </div>
+            <div class="links2">
+              <ul class="list-none flex flex-col justify-between space-y-4">
+                <li>Career</li>
+                <li>Blog</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!--social-->
+          <div class="social flex mt-8 p-2 space-x-4 justify-center items-center md:w-1/3">
+            <a href="#" class="h-9 w-9 border-solid border-white border-2 rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-white"
+              viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
+            </svg>
+          </a>
+            <a href="#" class="h-9 w-9 border-solid border-white border-2 rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-white"
+              viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+            </svg>
+          </a>
+            <a href="#" class="h-9 w-9 border-solid border-white border-2 rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-white"
+              viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+            </svg>
+          </a>
+          </div>
+      </div>
+      <!--copyright-->
+      <div class="copyright flex justify-center md:justify-end">
+        <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Akash Reddy Nandikonda</a>.
+    </p>
+  </footer>
+</body>
+</html>
